@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "~/ruby_introduction/convert_hash_syntax/convert_hash_syntax"
+require_relative "convert_hash_syntax"
 
 class ConvertHashSyntaxTest < MiniTest::Test
   def test_convert_hash_syntax

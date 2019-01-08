@@ -9,14 +9,8 @@ def fizz_buzz(n)
     n.to_s
   end
 end
-    
-puts fizz_buzz(1)
-puts fizz_buzz(2)
-puts fizz_buzz(3)
-puts fizz_buzz(4)
-puts fizz_buzz(5)
-puts fizz_buzz(6)
-puts fizz_buzz(15)
+ 
+(1..1000).each { |n| puts fizz_buzz(n) }
 
 
 def fizz_buzz(n)
@@ -31,15 +25,4 @@ def fizz_buzz(n)
   end
 end
     
-puts fizz_buzz(1)
-puts fizz_buzz(2)
-puts fizz_buzz(3)
-puts fizz_buzz(4)
-puts fizz_buzz(5)
-puts fizz_buzz(6)
-puts fizz_buzz(7)
-puts fizz_buzz(8)
-puts fizz_buzz(12)
-puts fizz_buzz(15)
-puts fizz_buzz(20)
-
+(1..1000).each { |n| puts fizz_buzz(n) }

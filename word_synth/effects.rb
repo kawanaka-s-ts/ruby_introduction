@@ -4,7 +4,7 @@ module Effects
   end
 
   def self.echo(rate)
-    ->(words) { words.chars.map { |c| c == " " ? c : c * rate }.join }
+    ->(words) { words.split("").map { |c| c == " " ? c : c * rate }.join }
   end
 
   def self.loud(level)

@@ -1,6 +1,6 @@
 require_relative "deep_freezable"
-class  Bank
+class Bank
   extend DeepFreezable
   
-  CURENCIES = deep_freeze({"Japan" => "yen", "US" => "dollar", "India" => "rupee"})
+  CURRENCIES = deep_freeze({"Japan" => "yen", "US" => "dollar", "India" => "rupee"})
 end

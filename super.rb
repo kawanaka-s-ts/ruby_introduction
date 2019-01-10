@@ -15,8 +15,7 @@ class DVD < Product
   attr_reader :running_time
 
   def initialize(name, price, running_time)
-    @name = name
-    @price = price
+    super(name, price)
     @running_time = running_time
   end
 end
